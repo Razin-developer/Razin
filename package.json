@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node ./backend/dist/index.js",
-    "build": "npm install && npm install --prefix ./frontend && npm install --prefix ./backend && tsc && npm run build --prefix ./frontend",
+    "build": "npm install && npm install --prefix ./frontend && npm install --prefix ./backend && npm run build --prefix ./frontend",
     "ins": "npm install && npm install --prefix ./frontend && npm install --prefix ./backend",
     "backend": "npx tsx ./backend/src/index.ts",
     "frontend": "npm run dev --prefix ./frontend"
