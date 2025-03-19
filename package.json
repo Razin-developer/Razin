@@ -1,0 +1,19 @@
+{
+  "name": "Razin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./backend/dist/index.js",
+    "build": "tsc && npm run build --prefix ./frontend",
+    "ins": "npm install && npm install --prefix ./frontend && npm install --prefix ./backend",
+    "backend": "npx tsx ./backend/src/index.ts",
+    "frontend": "npm run dev --prefix ./frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
